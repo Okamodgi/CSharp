@@ -1,0 +1,12 @@
+Console.WriteLine("Введите а ");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите б ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+do
+{
+    a++;
+    Console.WriteLine("a = " + a);
+}
+while (a < b);
