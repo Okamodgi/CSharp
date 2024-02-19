@@ -1,0 +1,17 @@
+int a = 12;
+int b = 13;
+int c = 14;
+int d = 12;
+
+if (a == b)
+{
+    Console.WriteLine(a + " равно " + b);
+}
+else if (a < b)
+{
+    Console.WriteLine(a + " меньше " + b);
+}
+else
+{
+    Console.WriteLine(a + " больше " + b);
+}
